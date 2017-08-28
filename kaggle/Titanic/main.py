@@ -6,16 +6,17 @@ import sys
 Note:
 1. deal with those partially missing features:
    it could be a good idea for using binary values
-   since 0 could be a very "wrong" guess...
+   since 0 could be a very "wrong" guess... for the hidden true value
    ex: true age values might have 2 groups
-   [15, 30] and [45, 60] and this grouping is strong
-   correlated to Survived value
-   then using Age=0 is a terrible value for missing ages
+   [15, 30] and [45, 60] and this grouping is strongly correlated to Survived value
+   then using Age=0 is a terrible default value for missing ages
    for this case, use (0 if age=='' else 1 if int(age) > 25 else 0)
    could be a better idea.
+   Or, maybe making defualt value = average value can be a better idea
 2. 
 """
 
+## reuse this function
 def dotProduct(d1, d2):
     """
     @param dict d1: a feature vector represented by a mapping from a feature (string) to a weight (float).
@@ -27,7 +28,7 @@ def dotProduct(d1, d2):
     else:
         return sum(d1.get(f, 0) * v for f, v in d2.items())
 
-
+## reuse this function
 def increment(d1, scale, d2):
     """
     Implements d1 += scale * d2 for sparse vectors.
@@ -40,7 +41,6 @@ def increment(d1, scale, d2):
 
 
 def extract_feature_1(keys, values):
-
     y = 1 if values[1]=='1' else 0
     x = defaultdict(float)
     # PassengerId
@@ -91,6 +91,7 @@ def extract_test_data(file_path):
     pass
 
 
+## reuse this function
 def learnPredictor(trainExamples, testExamples, featureExtractor, numIters, eta):
     '''
     Given |trainExamples| and |testExamples| (each one is a list of (x,y)
