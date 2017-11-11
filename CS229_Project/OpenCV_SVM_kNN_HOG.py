@@ -1,17 +1,16 @@
 #!/usr/bin/env python
 
 '''
-SVM and KNearest digit recognition.
+SVM and KNearest Chinese calligraphy style recognition.
 
-Sample loads a dataset of handwritten digits from '../data/digits.png'.
-Then it trains a SVM and KNearest classifiers on it and evaluates
-their accuracy.
+First it loads a classified dataset of Chinese calligraphy images
+Then it trains a SVM and KNearest classifiers on it and evaluates their accuracy
 
 Following preprocessing is applied to the dataset:
  - Moment-based image deskew (see deskew())
- - Digit images are split into 4 10x10 cells and 16-bin
-   histogram of oriented gradients is computed for each
-   cell
+ - Chinese character images are split into
+   4 square cells (each of dimension loadImages.SZ/2) and 16-bin
+   histogram of oriented gradients is computed for each cell
  - Transform histograms to space with Hellinger metric (see [1] (RootSIFT))
 
 
