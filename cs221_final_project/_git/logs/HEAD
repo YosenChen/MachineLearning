@@ -1,0 +1,30 @@
+0000000000000000000000000000000000000000 a17aafd1a577d3a95b762a02224c5500b91dc6c5 YosenChen <chen.yosen@gmail.com> 1478920465 -0800	clone: from https://github.com/suyen1029/cs221_final_project.git
+a17aafd1a577d3a95b762a02224c5500b91dc6c5 4715499a4519b4cdfb9c63c0f93d56c26939333c YosenChen <chen.yosen@gmail.com> 1479007638 -0800	pull: Fast-forward
+4715499a4519b4cdfb9c63c0f93d56c26939333c 4edb5828a8bb31b1c9abe3afdb4a4f2eb865b780 YosenChen <chen.yosen@gmail.com> 1479025985 -0800	reset: moving to HEAD^1
+4edb5828a8bb31b1c9abe3afdb4a4f2eb865b780 564fd8a389d7db017a011a316bfdecc24c5135ae YosenChen <chen.yosen@gmail.com> 1479026000 -0800	pull: Fast-forward
+564fd8a389d7db017a011a316bfdecc24c5135ae 4dda76a544a1efd229cf32f52f9048546f03505f YosenChen <chen.yosen@gmail.com> 1479359906 -0800	pull: Fast-forward
+4dda76a544a1efd229cf32f52f9048546f03505f 4deb3770d0645ea87eb3bed95cc43cffcea8f86b YosenChen <chen.yosen@gmail.com> 1479367584 -0800	reset: moving to HEAD^1
+4deb3770d0645ea87eb3bed95cc43cffcea8f86b a69e5833da4535747a94681913918e5423c1c939 YosenChen <chen.yosen@gmail.com> 1479367710 -0800	reset: moving to HEAD^1
+a69e5833da4535747a94681913918e5423c1c939 ed386cf174a09b78c2b8e48debe05d0ab595e516 YosenChen <chen.yosen@gmail.com> 1479367727 -0800	commit: demo layout
+ed386cf174a09b78c2b8e48debe05d0ab595e516 b1f110cabbf7da6cb72cee4ebe832d50d8fab65e YosenChen <chen.yosen@gmail.com> 1479367766 -0800	pull: Merge made by the 'recursive' strategy.
+b1f110cabbf7da6cb72cee4ebe832d50d8fab65e ed386cf174a09b78c2b8e48debe05d0ab595e516 YosenChen <chen.yosen@gmail.com> 1479367786 -0800	reset: moving to HEAD^1
+ed386cf174a09b78c2b8e48debe05d0ab595e516 7779090284c8ccfde7b9afd7b29a67b7df6c973e YosenChen <chen.yosen@gmail.com> 1479367946 -0800	pull: Merge made by the 'recursive' strategy.
+7779090284c8ccfde7b9afd7b29a67b7df6c973e ed386cf174a09b78c2b8e48debe05d0ab595e516 YosenChen <chen.yosen@gmail.com> 1479367978 -0800	reset: moving to HEAD~1
+ed386cf174a09b78c2b8e48debe05d0ab595e516 564fd8a389d7db017a011a316bfdecc24c5135ae YosenChen <chen.yosen@gmail.com> 1479367991 -0800	reset: moving to HEAD~2
+564fd8a389d7db017a011a316bfdecc24c5135ae 814df5b5e3b0cd843a6d5e7e46107b670dcdad25 YosenChen <chen.yosen@gmail.com> 1479368009 -0800	pull: Fast-forward
+814df5b5e3b0cd843a6d5e7e46107b670dcdad25 1982e381131b59ec4ab081c72262966aceeeb088 YosenChen <chen.yosen@gmail.com> 1479433955 -0800	pull: Fast-forward
+1982e381131b59ec4ab081c72262966aceeeb088 67a659795f3f869b092cabe8a52007bfc8dd9d10 YosenChen <chen.yosen@gmail.com> 1479442533 -0800	commit: add RLAlgo class and weight model
+67a659795f3f869b092cabe8a52007bfc8dd9d10 57cd47fd7132f02bab9da2d2ac1935b1256cb121 YosenChen <chen.yosen@gmail.com> 1479446104 -0800	commit: RLAlgo only use classmethod
+57cd47fd7132f02bab9da2d2ac1935b1256cb121 3fe6709eb1adeee9aabfd529a191538d17c181d8 YosenChen <chen.yosen@gmail.com> 1479450312 -0800	commit: pacman & ghosts all use the same RLAlgo/rlReward
+3fe6709eb1adeee9aabfd529a191538d17c181d8 73629aa20990d9cebd9fadf4986fb786a6972769 YosenChen <chen.yosen@gmail.com> 1479781055 -0800	pull: Fast-forward
+73629aa20990d9cebd9fadf4986fb786a6972769 3b9627faa00490c333552b81424df76e6e17e595 YosenChen <chen.yosen@gmail.com> 1479790565 -0800	pull: Fast-forward
+3b9627faa00490c333552b81424df76e6e17e595 c2227c5d9235536fe6a0a09806c37713599249dc YosenChen <chen.yosen@gmail.com> 1479797425 -0800	pull: Fast-forward
+c2227c5d9235536fe6a0a09806c37713599249dc 3f3e63d267b3ac9b1de694f59c221ca89d05ee4f YosenChen <chen.yosen@gmail.com> 1479801536 -0800	commit: add param grid_size, show sum(totalRewards)
+3f3e63d267b3ac9b1de694f59c221ca89d05ee4f c2227c5d9235536fe6a0a09806c37713599249dc YosenChen <chen.yosen@gmail.com> 1480804776 -0800	reset: moving to HEAD^1
+c2227c5d9235536fe6a0a09806c37713599249dc 2022c1f4144926bc3344e3529be0dcd3b4b3b0d3 YosenChen <chen.yosen@gmail.com> 1480804793 -0800	pull: Fast-forward
+2022c1f4144926bc3344e3529be0dcd3b4b3b0d3 869342e715677118b155748349b3598fb9bf6f8b YosenChen <chen.yosen@gmail.com> 1480840813 -0800	commit: update oracle, fix oracle problems
+869342e715677118b155748349b3598fb9bf6f8b fd995b719176f9d1edc213ed015f331d53009e08 YosenChen <chen.yosen@gmail.com> 1480841234 -0800	commit (merge): Merge branch 'master' of https://github.com/suyen1029/cs221_final_project
+fd995b719176f9d1edc213ed015f331d53009e08 fd995b719176f9d1edc213ed015f331d53009e08 YosenChen <chen.yosen@gmail.com> 1511122733 -0800	rebase: checkout refs/remotes/origin/master
+fd995b719176f9d1edc213ed015f331d53009e08 fd995b719176f9d1edc213ed015f331d53009e08 YosenChen <chen.yosen@gmail.com> 1511122733 -0800	rebase finished: returning to refs/heads/master
+fd995b719176f9d1edc213ed015f331d53009e08 fd995b719176f9d1edc213ed015f331d53009e08 YosenChen <chen.yosen@gmail.com> 1511122870 -0800	rebase: checkout refs/remotes/origin/master
+fd995b719176f9d1edc213ed015f331d53009e08 fd995b719176f9d1edc213ed015f331d53009e08 YosenChen <chen.yosen@gmail.com> 1511122870 -0800	rebase finished: returning to refs/heads/master
