@@ -47,7 +47,7 @@ class PIControl(object):
 
     def update(self):  # return 1 when is_end, else 0
         if self.problem.is_end(self.current_input):
-            print("Problem is solved, last input {}".format(self.current_output))
+            print("Problem is solved, last output {}".format(self.current_output))
             return 1
         action = None
         if self.current_output > self.problem.t:
@@ -70,7 +70,7 @@ class QFunctionApprox(object):
         self.problem = problem
 
     def __str__(self):
-        return "[weight:{}]".format(self.w)
+        return "[func approx weight:{}]".format(self.w)
 
     def get_value(self, state, action):
         return self.w * self.phi(state, action)
@@ -93,8 +93,39 @@ class QFunctionApprox(object):
         return 1.0 if (self.problem.t-y)*action > 0 else -1.0
 
 
-class BinaryQTable(object):
-    pass
+class QBinaryTable(object):
+    # simplified Q table with only 2 entries
+    def __init__(self, eta, gamma, problem):
+        self.Q = {True: 0, False: 0}
+        self.eta = eta
+        self.gamma = gamma
+        self.problem = problem
+
+    def __str__(self):
+        return "[Q values:{}]".format(self.Q)
+
+    def get_value(self, state, action):
+        return self.Q[self.feature_extract(state, action)]
+
+    def set_value(self, state, action, new_value):
+        self.Q[self.feature_extract(state, action)] = new_value
+
+    def update(self, state, action, reward, new_state, new_actions):
+        # update Q(s, a)
+        predict_Q = self.get_value(state, action)
+
+        Q_new_state = []
+        for a in new_actions: Q_new_state.append(self.get_value(new_state, a))
+        V_new_state = max(Q_new_state)
+
+        target_Q = reward + self.gamma * V_new_state
+
+        self.set_value(state, action, (1-self.eta)*predict_Q + self.eta*target_Q)
+
+    def feature_extract(self, state, action):
+        # extract (s, a) as a binary signal: right or wrong direction
+        i, y = state
+        return (self.problem.t-y)*action >= 0
 
 
 class QLearning(object):
@@ -106,13 +137,16 @@ class QLearning(object):
         self.current_output = problem.get_output(problem.i0)
         self.current_input = problem.i0
 
+    def __str__(self):
+        return "QLearning with: {}".format(self.Q)
+
     def update(self):  # return 1 when is_end, else 0
         if self.problem.is_end(self.current_input):
-            print("Problem is solved, last input {}".format(self.current_output))
+            print("Problem is solved, last output {}".format(self.current_output))
             return 1
         
         current_state = (self.current_input, self.current_output)
-        # decide action
+        # decide action, epsilon greedy
         action = None
         if np.random.uniform() < self.epsilon:
             # exploration
@@ -155,6 +189,10 @@ def main():
     q_func_approx = QFunctionApprox(ETA, GAMMA, problem)
     q_learning_func_approx = QLearning(STEP_SIZE, EPSILON, q_func_approx, problem)
     run(q_learning_func_approx)
+
+    q_binary = QBinaryTable(ETA, GAMMA, problem)
+    q_learning_binary = QLearning(STEP_SIZE, EPSILON, q_binary, problem)
+    run(q_learning_binary)
 
 if __name__ == "__main__":
     main()
