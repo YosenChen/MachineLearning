@@ -25,6 +25,8 @@ class Problem(object):
         self.transfer = transfer  # from i to y
         self.err = err
     
+    # Note that the hidden transfer function is unknown for all control methods
+    # The only assumption for them is the transfer function is an increasing function
     def get_output(self, i):
         return self.transfer(i)
 
@@ -181,6 +183,7 @@ def run(control_method, iter_max = 100000):
         print("iteration#{}".format(i))
         res = control_method.update()
 
+
 def main():
     problem = Problem(TARGET, INIT_INPUT, TRANSFER, TOLERANCE)
     pi_control = PIControl(STEP_SIZE, problem)
@@ -193,6 +196,7 @@ def main():
     q_binary = QBinaryTable(ETA, GAMMA, problem)
     q_learning_binary = QLearning(STEP_SIZE, EPSILON, q_binary, problem)
     run(q_learning_binary)
+
 
 if __name__ == "__main__":
     main()
