@@ -12,7 +12,7 @@ TOLERANCE = 0.1
 STEP_SIZE = 0.01
 
 # RL parameters
-EPSILON = 0.2  # prob for exploration
+EPSILON = 0.1  # probability for exploration, no need to be large for such a small state space
 ETA = 0.3  # learning rate
 GAMMA = 0.9  # discount factor
 

@@ -1,0 +1,1851 @@
+~/GitHubWorkSpace/MachineLearning/RL_Practice$ ./PI_control_RL_methods.py 2>&1 | tee result.txt
+
+<__main__.PIControl object at 0xb0bc322c>
+iteration#1
+Input:1.01, output:1.0201, action:0.01
+iteration#2
+Input:1.02, output:1.0404, action:0.01
+iteration#3
+Input:1.03, output:1.0609, action:0.01
+iteration#4
+Input:1.04, output:1.0816, action:0.01
+iteration#5
+Input:1.05, output:1.1025, action:0.01
+iteration#6
+Input:1.06, output:1.1236, action:0.01
+iteration#7
+Input:1.07, output:1.1449, action:0.01
+iteration#8
+Input:1.08, output:1.1664, action:0.01
+iteration#9
+Input:1.09, output:1.1881, action:0.01
+iteration#10
+Input:1.1, output:1.21, action:0.01
+iteration#11
+Input:1.11, output:1.2321, action:0.01
+iteration#12
+Input:1.12, output:1.2544, action:0.01
+iteration#13
+Input:1.13, output:1.2769, action:0.01
+iteration#14
+Input:1.14, output:1.2996, action:0.01
+iteration#15
+Input:1.15, output:1.3225, action:0.01
+iteration#16
+Input:1.16, output:1.3456, action:0.01
+iteration#17
+Input:1.17, output:1.3689, action:0.01
+iteration#18
+Input:1.18, output:1.3924, action:0.01
+iteration#19
+Input:1.19, output:1.4161, action:0.01
+iteration#20
+Input:1.2, output:1.44, action:0.01
+iteration#21
+Input:1.21, output:1.4641, action:0.01
+iteration#22
+Input:1.22, output:1.4884, action:0.01
+iteration#23
+Input:1.23, output:1.5129, action:0.01
+iteration#24
+Input:1.24, output:1.5376, action:0.01
+iteration#25
+Input:1.25, output:1.5625, action:0.01
+iteration#26
+Input:1.26, output:1.5876, action:0.01
+iteration#27
+Input:1.27, output:1.6129, action:0.01
+iteration#28
+Input:1.28, output:1.6384, action:0.01
+iteration#29
+Input:1.29, output:1.6641, action:0.01
+iteration#30
+Input:1.3, output:1.69, action:0.01
+iteration#31
+Input:1.31, output:1.7161, action:0.01
+iteration#32
+Input:1.32, output:1.7424, action:0.01
+iteration#33
+Input:1.33, output:1.7689, action:0.01
+iteration#34
+Input:1.34, output:1.7956, action:0.01
+iteration#35
+Input:1.35, output:1.8225, action:0.01
+iteration#36
+Input:1.36, output:1.8496, action:0.01
+iteration#37
+Input:1.37, output:1.8769, action:0.01
+iteration#38
+Input:1.38, output:1.9044, action:0.01
+iteration#39
+Input:1.39, output:1.9321, action:0.01
+iteration#40
+Input:1.4, output:1.96, action:0.01
+iteration#41
+Input:1.41, output:1.9881, action:0.01
+iteration#42
+Input:1.42, output:2.0164, action:0.01
+iteration#43
+Input:1.43, output:2.0449, action:0.01
+iteration#44
+Input:1.44, output:2.0736, action:0.01
+iteration#45
+Input:1.45, output:2.1025, action:0.01
+iteration#46
+Input:1.46, output:2.1316, action:0.01
+iteration#47
+Input:1.47, output:2.1609, action:0.01
+iteration#48
+Input:1.48, output:2.1904, action:0.01
+iteration#49
+Input:1.49, output:2.2201, action:0.01
+iteration#50
+Input:1.5, output:2.25, action:0.01
+iteration#51
+Input:1.51, output:2.2801, action:0.01
+iteration#52
+Input:1.52, output:2.3104, action:0.01
+iteration#53
+Input:1.53, output:2.3409, action:0.01
+iteration#54
+Input:1.54, output:2.3716, action:0.01
+iteration#55
+Input:1.55, output:2.4025, action:0.01
+iteration#56
+Input:1.56, output:2.4336, action:0.01
+iteration#57
+Input:1.57, output:2.4649, action:0.01
+iteration#58
+Input:1.58, output:2.4964, action:0.01
+iteration#59
+Input:1.59, output:2.5281, action:0.01
+iteration#60
+Input:1.6, output:2.56, action:0.01
+iteration#61
+Input:1.61, output:2.5921, action:0.01
+iteration#62
+Input:1.62, output:2.6244, action:0.01
+iteration#63
+Input:1.63, output:2.6569, action:0.01
+iteration#64
+Input:1.64, output:2.6896, action:0.01
+iteration#65
+Input:1.65, output:2.7225, action:0.01
+iteration#66
+Input:1.66, output:2.7556, action:0.01
+iteration#67
+Input:1.67, output:2.7889, action:0.01
+iteration#68
+Input:1.68, output:2.8224, action:0.01
+iteration#69
+Input:1.69, output:2.8561, action:0.01
+iteration#70
+Input:1.7, output:2.89, action:0.01
+iteration#71
+Input:1.71, output:2.9241, action:0.01
+iteration#72
+Input:1.72, output:2.9584, action:0.01
+iteration#73
+Input:1.73, output:2.9929, action:0.01
+iteration#74
+Input:1.74, output:3.0276, action:0.01
+iteration#75
+Input:1.75, output:3.0625, action:0.01
+iteration#76
+Input:1.76, output:3.0976, action:0.01
+iteration#77
+Input:1.77, output:3.1329, action:0.01
+iteration#78
+Input:1.78, output:3.1684, action:0.01
+iteration#79
+Input:1.79, output:3.2041, action:0.01
+iteration#80
+Input:1.8, output:3.24, action:0.01
+iteration#81
+Input:1.81, output:3.2761, action:0.01
+iteration#82
+Input:1.82, output:3.3124, action:0.01
+iteration#83
+Input:1.83, output:3.3489, action:0.01
+iteration#84
+Input:1.84, output:3.3856, action:0.01
+iteration#85
+Input:1.85, output:3.4225, action:0.01
+iteration#86
+Input:1.86, output:3.4596, action:0.01
+iteration#87
+Input:1.87, output:3.4969, action:0.01
+iteration#88
+Input:1.88, output:3.5344, action:0.01
+iteration#89
+Input:1.89, output:3.5721, action:0.01
+iteration#90
+Input:1.9, output:3.61, action:0.01
+iteration#91
+Input:1.91, output:3.6481, action:0.01
+iteration#92
+Input:1.92, output:3.6864, action:0.01
+iteration#93
+Input:1.93, output:3.7249, action:0.01
+iteration#94
+Input:1.94, output:3.7636, action:0.01
+iteration#95
+Input:1.95, output:3.8025, action:0.01
+iteration#96
+Input:1.96, output:3.8416, action:0.01
+iteration#97
+Input:1.97, output:3.8809, action:0.01
+iteration#98
+Input:1.98, output:3.9204, action:0.01
+iteration#99
+Input:1.99, output:3.9601, action:0.01
+iteration#100
+Input:2.0, output:4.0, action:0.01
+iteration#101
+Input:2.01, output:4.0401, action:0.01
+iteration#102
+Input:2.02, output:4.0804, action:0.01
+iteration#103
+Input:2.03, output:4.1209, action:0.01
+iteration#104
+Input:2.04, output:4.1616, action:0.01
+iteration#105
+Input:2.05, output:4.2025, action:0.01
+iteration#106
+Input:2.06, output:4.2436, action:0.01
+iteration#107
+Input:2.07, output:4.2849, action:0.01
+iteration#108
+Input:2.08, output:4.3264, action:0.01
+iteration#109
+Input:2.09, output:4.3681, action:0.01
+iteration#110
+Input:2.1, output:4.41, action:0.01
+iteration#111
+Input:2.11, output:4.4521, action:0.01
+iteration#112
+Input:2.12, output:4.4944, action:0.01
+iteration#113
+Input:2.13, output:4.5369, action:0.01
+iteration#114
+Input:2.14, output:4.5796, action:0.01
+iteration#115
+Input:2.15, output:4.6225, action:0.01
+iteration#116
+Input:2.16, output:4.6656, action:0.01
+iteration#117
+Input:2.17, output:4.7089, action:0.01
+iteration#118
+Input:2.18, output:4.7524, action:0.01
+iteration#119
+Input:2.19, output:4.7961, action:0.01
+iteration#120
+Input:2.2, output:4.84, action:0.01
+iteration#121
+Input:2.21, output:4.8841, action:0.01
+iteration#122
+Input:2.22, output:4.9284, action:0.01
+iteration#123
+Input:2.23, output:4.9729, action:0.01
+iteration#124
+Input:2.24, output:5.0176, action:0.01
+iteration#125
+Input:2.25, output:5.0625, action:0.01
+iteration#126
+Input:2.26, output:5.1076, action:0.01
+iteration#127
+Input:2.27, output:5.1529, action:0.01
+iteration#128
+Input:2.28, output:5.1984, action:0.01
+iteration#129
+Input:2.29, output:5.2441, action:0.01
+iteration#130
+Input:2.3, output:5.29, action:0.01
+iteration#131
+Input:2.31, output:5.3361, action:0.01
+iteration#132
+Input:2.32, output:5.3824, action:0.01
+iteration#133
+Input:2.33, output:5.4289, action:0.01
+iteration#134
+Input:2.34, output:5.4756, action:0.01
+iteration#135
+Input:2.35, output:5.5225, action:0.01
+iteration#136
+Input:2.36, output:5.5696, action:0.01
+iteration#137
+Input:2.37, output:5.6169, action:0.01
+iteration#138
+Input:2.38, output:5.6644, action:0.01
+iteration#139
+Input:2.39, output:5.7121, action:0.01
+iteration#140
+Input:2.4, output:5.76, action:0.01
+iteration#141
+Input:2.41, output:5.8081, action:0.01
+iteration#142
+Input:2.42, output:5.8564, action:0.01
+iteration#143
+Input:2.43, output:5.9049, action:0.01
+iteration#144
+Input:2.44, output:5.9536, action:0.01
+iteration#145
+Input:2.45, output:6.0025, action:0.01
+iteration#146
+Input:2.46, output:6.0516, action:0.01
+iteration#147
+Input:2.47, output:6.1009, action:0.01
+iteration#148
+Input:2.48, output:6.1504, action:0.01
+iteration#149
+Input:2.49, output:6.2001, action:0.01
+iteration#150
+Input:2.5, output:6.25, action:0.01
+iteration#151
+Input:2.51, output:6.3001, action:0.01
+iteration#152
+Input:2.52, output:6.3504, action:0.01
+iteration#153
+Input:2.53, output:6.4009, action:0.01
+iteration#154
+Input:2.54, output:6.4516, action:0.01
+iteration#155
+Input:2.55, output:6.5025, action:0.01
+iteration#156
+Input:2.56, output:6.5536, action:0.01
+iteration#157
+Input:2.57, output:6.6049, action:0.01
+iteration#158
+Input:2.58, output:6.6564, action:0.01
+iteration#159
+Input:2.59, output:6.7081, action:0.01
+iteration#160
+Input:2.6, output:6.76, action:0.01
+iteration#161
+Input:2.61, output:6.8121, action:0.01
+iteration#162
+Input:2.62, output:6.8644, action:0.01
+iteration#163
+Input:2.63, output:6.9169, action:0.01
+iteration#164
+Input:2.64, output:6.9696, action:0.01
+iteration#165
+Input:2.65, output:7.0225, action:0.01
+iteration#166
+Input:2.66, output:7.0756, action:0.01
+iteration#167
+Input:2.67, output:7.1289, action:0.01
+iteration#168
+Input:2.68, output:7.1824, action:0.01
+iteration#169
+Input:2.69, output:7.2361, action:0.01
+iteration#170
+Input:2.7, output:7.29, action:0.01
+iteration#171
+Input:2.71, output:7.3441, action:0.01
+iteration#172
+Input:2.72, output:7.3984, action:0.01
+iteration#173
+Input:2.73, output:7.4529, action:0.01
+iteration#174
+Input:2.74, output:7.5076, action:0.01
+iteration#175
+Input:2.75, output:7.5625, action:0.01
+iteration#176
+Input:2.76, output:7.6176, action:0.01
+iteration#177
+Input:2.77, output:7.6729, action:0.01
+iteration#178
+Input:2.78, output:7.7284, action:0.01
+iteration#179
+Input:2.79, output:7.7841, action:0.01
+iteration#180
+Input:2.8, output:7.84, action:0.01
+iteration#181
+Input:2.81, output:7.8961, action:0.01
+iteration#182
+Input:2.82, output:7.9524, action:0.01
+iteration#183
+Input:2.83, output:8.0089, action:0.01
+iteration#184
+Input:2.84, output:8.0656, action:0.01
+iteration#185
+Input:2.85, output:8.1225, action:0.01
+iteration#186
+Input:2.86, output:8.1796, action:0.01
+iteration#187
+Input:2.87, output:8.2369, action:0.01
+iteration#188
+Input:2.88, output:8.2944, action:0.01
+iteration#189
+Input:2.89, output:8.3521, action:0.01
+iteration#190
+Input:2.9, output:8.41, action:0.01
+iteration#191
+Input:2.91, output:8.4681, action:0.01
+iteration#192
+Input:2.92, output:8.5264, action:0.01
+iteration#193
+Input:2.93, output:8.5849, action:0.01
+iteration#194
+Input:2.94, output:8.6436, action:0.01
+iteration#195
+Input:2.95, output:8.7025, action:0.01
+iteration#196
+Input:2.96, output:8.7616, action:0.01
+iteration#197
+Input:2.97, output:8.8209, action:0.01
+iteration#198
+Input:2.98, output:8.8804, action:0.01
+iteration#199
+Input:2.99, output:8.9401, action:0.01
+iteration#200
+Input:3.0, output:9.0, action:0.01
+iteration#201
+Input:3.01, output:9.0601, action:0.01
+iteration#202
+Input:3.02, output:9.1204, action:0.01
+iteration#203
+Input:3.03, output:9.1809, action:0.01
+iteration#204
+Input:3.04, output:9.2416, action:0.01
+iteration#205
+Input:3.05, output:9.3025, action:0.01
+iteration#206
+Input:3.06, output:9.3636, action:0.01
+iteration#207
+Input:3.07, output:9.4249, action:0.01
+iteration#208
+Input:3.08, output:9.4864, action:0.01
+iteration#209
+Input:3.09, output:9.5481, action:0.01
+iteration#210
+Input:3.1, output:9.61, action:0.01
+iteration#211
+Input:3.11, output:9.6721, action:0.01
+iteration#212
+Input:3.12, output:9.7344, action:0.01
+iteration#213
+Input:3.13, output:9.7969, action:0.01
+iteration#214
+Input:3.14, output:9.8596, action:0.01
+iteration#215
+Input:3.15, output:9.9225, action:0.01
+iteration#216
+Problem is solved, last output 9.9225
+QLearning with: [func approx weight:0.0]
+iteration#1
+Input:1.01, output:1.0201, action:0.01
+Q info:[func approx weight:0.00603]
+iteration#2
+Input:1.02, output:1.0404, action:0.01
+Q info:[func approx weight:0.0119391]
+iteration#3
+Input:1.03, output:1.0609, action:0.01
+Q info:[func approx weight:0.017730927]
+iteration#4
+Input:1.04, output:1.0816, action:0.01
+Q info:[func approx weight:0.02340899919]
+iteration#5
+Input:1.05, output:1.1025, action:0.01
+Q info:[func approx weight:0.0289767292143]
+iteration#6
+Input:1.06, output:1.1236, action:0.01
+Q info:[func approx weight:0.0344374273379]
+iteration#7
+Input:1.07, output:1.1449, action:0.01
+Q info:[func approx weight:0.0397943045177]
+iteration#8
+Input:1.08, output:1.1664, action:0.01
+Q info:[func approx weight:0.0450504753822]
+iteration#9
+Input:1.09, output:1.1881, action:0.01
+Q info:[func approx weight:0.0502089611207]
+iteration#10
+Input:1.1, output:1.21, action:0.01
+Q info:[func approx weight:0.0552726922871]
+iteration#11
+Input:1.11, output:1.2321, action:0.01
+Q info:[func approx weight:0.0602445115185]
+iteration#12
+Input:1.12, output:1.2544, action:0.01
+Q info:[func approx weight:0.0651271761729]
+iteration#13
+Input:1.13, output:1.2769, action:0.01
+Q info:[func approx weight:0.0699233608878]
+iteration#14
+Input:1.14, output:1.2996, action:0.01
+Q info:[func approx weight:0.0746356600611]
+iteration#15
+Input:1.15, output:1.3225, action:0.01
+Q info:[func approx weight:0.0792665902593]
+iteration#16
+Input:1.16, output:1.3456, action:0.01
+Q info:[func approx weight:0.0838185925515]
+iteration#17
+Input:1.17, output:1.3689, action:0.01
+Q info:[func approx weight:0.088294034775]
+iteration#18
+Input:1.18, output:1.3924, action:0.01
+Q info:[func approx weight:0.0926952137317]
+iteration#19
+Input:1.19, output:1.4161, action:0.01
+Q info:[func approx weight:0.0970243573198]
+iteration#20
+Input:1.2, output:1.44, action:0.01
+Q info:[func approx weight:0.1012836266]
+iteration#21
+Input:1.21, output:1.4641, action:0.01
+Q info:[func approx weight:0.105475117802]
+iteration#22
+Input:1.2, output:1.44, action:-0.01
+Q info:[func approx weight:0.0525843006549]
+iteration#23
+Input:1.21, output:1.4641, action:0.01
+Q info:[func approx weight:0.0582367716353]
+iteration#24
+Input:1.22, output:1.4884, action:0.01
+Q info:[func approx weight:0.0637796684862]
+iteration#25
+Input:1.23, output:1.5129, action:0.01
+Q info:[func approx weight:0.0692162784316]
+iteration#26
+Input:1.24, output:1.5376, action:0.01
+Q info:[func approx weight:0.0745497900787]
+iteration#27
+Input:1.25, output:1.5625, action:0.01
+Q info:[func approx weight:0.0797832963763]
+iteration#28
+Input:1.26, output:1.5876, action:0.01
+Q info:[func approx weight:0.084919797485]
+iteration#29
+Input:1.27, output:1.6129, action:0.01
+Q info:[func approx weight:0.0899622035605]
+iteration#30
+Input:1.28, output:1.6384, action:0.01
+Q info:[func approx weight:0.0949133374537]
+iteration#31
+Input:1.29, output:1.6641, action:0.01
+Q info:[func approx weight:0.0997759373301]
+iteration#32
+Input:1.3, output:1.69, action:0.01
+Q info:[func approx weight:0.10455265921]
+iteration#33
+Input:1.31, output:1.7161, action:0.01
+Q info:[func approx weight:0.109246079434]
+iteration#34
+Input:1.32, output:1.7424, action:0.01
+Q info:[func approx weight:0.113858697051]
+iteration#35
+Input:1.33, output:1.7689, action:0.01
+Q info:[func approx weight:0.118392936139]
+iteration#36
+Input:1.34, output:1.7956, action:0.01
+Q info:[func approx weight:0.122851148055]
+iteration#37
+Input:1.35, output:1.8225, action:0.01
+Q info:[func approx weight:0.127235613613]
+iteration#38
+Input:1.36, output:1.8496, action:0.01
+Q info:[func approx weight:0.131548545205]
+iteration#39
+Input:1.37, output:1.8769, action:0.01
+Q info:[func approx weight:0.135792088849]
+iteration#40
+Input:1.38, output:1.9044, action:0.01
+Q info:[func approx weight:0.139968326183]
+iteration#41
+Input:1.39, output:1.9321, action:0.01
+Q info:[func approx weight:0.144079276398]
+iteration#42
+Input:1.4, output:1.96, action:0.01
+Q info:[func approx weight:0.148126898106]
+iteration#43
+Input:1.41, output:1.9881, action:0.01
+Q info:[func approx weight:0.152113091163]
+iteration#44
+Input:1.42, output:2.0164, action:0.01
+Q info:[func approx weight:0.156039698428]
+iteration#45
+Input:1.43, output:2.0449, action:0.01
+Q info:[func approx weight:0.159908507475]
+iteration#46
+Input:1.44, output:2.0736, action:0.01
+Q info:[func approx weight:0.163721252251]
+iteration#47
+Input:1.45, output:2.1025, action:0.01
+Q info:[func approx weight:0.167479614683]
+iteration#48
+Input:1.46, output:2.1316, action:0.01
+Q info:[func approx weight:0.171185226243]
+iteration#49
+Input:1.47, output:2.1609, action:0.01
+Q info:[func approx weight:0.174839669456]
+iteration#50
+Input:1.48, output:2.1904, action:0.01
+Q info:[func approx weight:0.178444479372]
+iteration#51
+Input:1.49, output:2.2201, action:0.01
+Q info:[func approx weight:0.182001144991]
+iteration#52
+Input:1.5, output:2.25, action:0.01
+Q info:[func approx weight:0.185511110641]
+iteration#53
+Input:1.51, output:2.2801, action:0.01
+Q info:[func approx weight:0.188975777322]
+iteration#54
+Input:1.52, output:2.3104, action:0.01
+Q info:[func approx weight:0.192396504002]
+iteration#55
+Input:1.53, output:2.3409, action:0.01
+Q info:[func approx weight:0.195774608882]
+iteration#56
+Input:1.54, output:2.3716, action:0.01
+Q info:[func approx weight:0.199111370616]
+iteration#57
+Input:1.55, output:2.4025, action:0.01
+Q info:[func approx weight:0.202408029497]
+iteration#58
+Input:1.56, output:2.4336, action:0.01
+Q info:[func approx weight:0.205665788612]
+iteration#59
+Input:1.57, output:2.4649, action:0.01
+Q info:[func approx weight:0.208885814954]
+iteration#60
+Input:1.58, output:2.4964, action:0.01
+Q info:[func approx weight:0.212069240505]
+iteration#61
+Input:1.59, output:2.5281, action:0.01
+Q info:[func approx weight:0.21521716329]
+iteration#62
+Input:1.6, output:2.56, action:0.01
+Q info:[func approx weight:0.218330648391]
+iteration#63
+Input:1.61, output:2.5921, action:0.01
+Q info:[func approx weight:0.22141072894]
+iteration#64
+Input:1.62, output:2.6244, action:0.01
+Q info:[func approx weight:0.224458407071]
+iteration#65
+Input:1.63, output:2.6569, action:0.01
+Q info:[func approx weight:0.227474654859]
+iteration#66
+Input:1.64, output:2.6896, action:0.01
+Q info:[func approx weight:0.230460415214]
+iteration#67
+Input:1.65, output:2.7225, action:0.01
+Q info:[func approx weight:0.233416602757]
+iteration#68
+Input:1.66, output:2.7556, action:0.01
+Q info:[func approx weight:0.236344104674]
+iteration#69
+Input:1.67, output:2.7889, action:0.01
+Q info:[func approx weight:0.239243781534]
+iteration#70
+Input:1.68, output:2.8224, action:0.01
+Q info:[func approx weight:0.242116468088]
+iteration#71
+Input:1.69, output:2.8561, action:0.01
+Q info:[func approx weight:0.244962974045]
+iteration#72
+Input:1.7, output:2.89, action:0.01
+Q info:[func approx weight:0.247784084824]
+iteration#73
+Input:1.71, output:2.9241, action:0.01
+Q info:[func approx weight:0.250580562279]
+iteration#74
+Input:1.72, output:2.9584, action:0.01
+Q info:[func approx weight:0.253353145411]
+iteration#75
+Input:1.73, output:2.9929, action:0.01
+Q info:[func approx weight:0.256102551049]
+iteration#76
+Input:1.74, output:3.0276, action:0.01
+Q info:[func approx weight:0.258829474517]
+iteration#77
+Input:1.75, output:3.0625, action:0.01
+Q info:[func approx weight:0.261534590282]
+iteration#78
+Input:1.76, output:3.0976, action:0.01
+Q info:[func approx weight:0.264218552573]
+iteration#79
+Input:1.77, output:3.1329, action:0.01
+Q info:[func approx weight:0.266881995996]
+iteration#80
+Input:1.78, output:3.1684, action:0.01
+Q info:[func approx weight:0.269525536116]
+iteration#81
+Input:1.79, output:3.2041, action:0.01
+Q info:[func approx weight:0.272149770033]
+iteration#82
+Input:1.8, output:3.24, action:0.01
+Q info:[func approx weight:0.274755276932]
+iteration#83
+Input:1.81, output:3.2761, action:0.01
+Q info:[func approx weight:0.277342618624]
+iteration#84
+Input:1.82, output:3.3124, action:0.01
+Q info:[func approx weight:0.279912340065]
+iteration#85
+Input:1.83, output:3.3489, action:0.01
+Q info:[func approx weight:0.282464969863]
+iteration#86
+Input:1.84, output:3.3856, action:0.01
+Q info:[func approx weight:0.285001020767]
+iteration#87
+Input:1.85, output:3.4225, action:0.01
+Q info:[func approx weight:0.287520990144]
+iteration#88
+Input:1.86, output:3.4596, action:0.01
+Q info:[func approx weight:0.29002536044]
+iteration#89
+Input:1.87, output:3.4969, action:0.01
+Q info:[func approx weight:0.292514599627]
+iteration#90
+Input:1.88, output:3.5344, action:0.01
+Q info:[func approx weight:0.294989161638]
+iteration#91
+Input:1.89, output:3.5721, action:0.01
+Q info:[func approx weight:0.297449486789]
+iteration#92
+Input:1.9, output:3.61, action:0.01
+Q info:[func approx weight:0.299896002185]
+iteration#93
+Input:1.91, output:3.6481, action:0.01
+Q info:[func approx weight:0.30232912212]
+iteration#94
+Input:1.92, output:3.6864, action:0.01
+Q info:[func approx weight:0.304749248456]
+iteration#95
+Input:1.93, output:3.7249, action:0.01
+Q info:[func approx weight:0.307156771002]
+iteration#96
+Input:1.94, output:3.7636, action:0.01
+Q info:[func approx weight:0.309552067872]
+iteration#97
+Input:1.95, output:3.8025, action:0.01
+Q info:[func approx weight:0.311935505836]
+iteration#98
+Input:1.96, output:3.8416, action:0.01
+Q info:[func approx weight:0.314307440661]
+iteration#99
+Input:1.97, output:3.8809, action:0.01
+Q info:[func approx weight:0.316668217441]
+iteration#100
+Input:1.98, output:3.9204, action:0.01
+Q info:[func approx weight:0.319018170918]
+iteration#101
+Input:1.99, output:3.9601, action:0.01
+Q info:[func approx weight:0.32135762579]
+iteration#102
+Input:2.0, output:4.0, action:0.01
+Q info:[func approx weight:0.323686897017]
+iteration#103
+Input:2.01, output:4.0401, action:0.01
+Q info:[func approx weight:0.326006290106]
+iteration#104
+Input:2.02, output:4.0804, action:0.01
+Q info:[func approx weight:0.328316101403]
+iteration#105
+Input:2.03, output:4.1209, action:0.01
+Q info:[func approx weight:0.330616618361]
+iteration#106
+Input:2.04, output:4.1616, action:0.01
+Q info:[func approx weight:0.33290811981]
+iteration#107
+Input:2.05, output:4.2025, action:0.01
+Q info:[func approx weight:0.335190876216]
+iteration#108
+Input:2.06, output:4.2436, action:0.01
+Q info:[func approx weight:0.337465149929]
+iteration#109
+Input:2.07, output:4.2849, action:0.01
+Q info:[func approx weight:0.339731195431]
+iteration#110
+Input:2.08, output:4.3264, action:0.01
+Q info:[func approx weight:0.341989259568]
+iteration#111
+Input:2.09, output:4.3681, action:0.01
+Q info:[func approx weight:0.344239581781]
+iteration#112
+Input:2.1, output:4.41, action:0.01
+Q info:[func approx weight:0.346482394328]
+iteration#113
+Input:2.11, output:4.4521, action:0.01
+Q info:[func approx weight:0.348717922498]
+iteration#114
+Input:2.12, output:4.4944, action:0.01
+Q info:[func approx weight:0.350946384823]
+iteration#115
+Input:2.13, output:4.5369, action:0.01
+Q info:[func approx weight:0.353167993278]
+iteration#116
+Input:2.14, output:4.5796, action:0.01
+Q info:[func approx weight:0.35538295348]
+iteration#117
+Input:2.15, output:4.6225, action:0.01
+Q info:[func approx weight:0.357591464876]
+iteration#118
+Input:2.16, output:4.6656, action:0.01
+Q info:[func approx weight:0.359793720929]
+iteration#119
+Input:2.17, output:4.7089, action:0.01
+Q info:[func approx weight:0.361989909302]
+iteration#120
+Input:2.18, output:4.7524, action:0.01
+Q info:[func approx weight:0.364180212023]
+iteration#121
+Input:2.19, output:4.7961, action:0.01
+Q info:[func approx weight:0.366364805662]
+iteration#122
+Input:2.2, output:4.84, action:0.01
+Q info:[func approx weight:0.368543861492]
+iteration#123
+Input:2.21, output:4.8841, action:0.01
+Q info:[func approx weight:0.370717545647]
+iteration#124
+Input:2.2, output:4.84, action:-0.01
+Q info:[func approx weight:0.172638544628]
+iteration#125
+Input:2.21, output:4.8841, action:0.01
+Q info:[func approx weight:0.180689388289]
+iteration#126
+Input:2.22, output:4.9284, action:0.01
+Q info:[func approx weight:0.188558706641]
+iteration#127
+Input:2.23, output:4.9729, action:0.01
+Q info:[func approx weight:0.196251945442]
+iteration#128
+Input:2.24, output:5.0176, action:0.01
+Q info:[func approx weight:0.203774387078]
+iteration#129
+Input:2.25, output:5.0625, action:0.01
+Q info:[func approx weight:0.211131155466]
+iteration#130
+Input:2.26, output:5.1076, action:0.01
+Q info:[func approx weight:0.218327220802]
+iteration#131
+Input:2.25, output:5.0625, action:-0.01
+Q info:[func approx weight:0.107410704945]
+iteration#132
+Input:2.26, output:5.1076, action:0.01
+Q info:[func approx weight:0.117718383797]
+iteration#133
+Input:2.27, output:5.1529, action:0.01
+Q info:[func approx weight:0.127776832283]
+iteration#134
+Input:2.28, output:5.1984, action:0.01
+Q info:[func approx weight:0.137593527314]
+iteration#135
+Input:2.29, output:5.2441, action:0.01
+Q info:[func approx weight:0.147175721495]
+iteration#136
+Input:2.3, output:5.29, action:0.01
+Q info:[func approx weight:0.15653044985]
+iteration#137
+Input:2.31, output:5.3361, action:0.01
+Q info:[func approx weight:0.165664536354]
+iteration#138
+Input:2.32, output:5.3824, action:0.01
+Q info:[func approx weight:0.174584600264]
+iteration#139
+Input:2.33, output:5.4289, action:0.01
+Q info:[func approx weight:0.183297062256]
+iteration#140
+Input:2.34, output:5.4756, action:0.01
+Q info:[func approx weight:0.191808150388]
+iteration#141
+Input:2.35, output:5.5225, action:0.01
+Q info:[func approx weight:0.200123905877]
+iteration#142
+Input:2.36, output:5.5696, action:0.01
+Q info:[func approx weight:0.2082501887]
+iteration#143
+Input:2.37, output:5.6169, action:0.01
+Q info:[func approx weight:0.216192683039]
+iteration#144
+Input:2.38, output:5.6644, action:0.01
+Q info:[func approx weight:0.223956902548]
+iteration#145
+Input:2.39, output:5.7121, action:0.01
+Q info:[func approx weight:0.231548195472]
+iteration#146
+Input:2.4, output:5.76, action:0.01
+Q info:[func approx weight:0.238971749607]
+iteration#147
+Input:2.41, output:5.8081, action:0.01
+Q info:[func approx weight:0.246232597119]
+iteration#148
+Input:2.42, output:5.8564, action:0.01
+Q info:[func approx weight:0.253335619206]
+iteration#149
+Input:2.43, output:5.9049, action:0.01
+Q info:[func approx weight:0.260285550629]
+iteration#150
+Input:2.42, output:5.8564, action:-0.01
+Q info:[func approx weight:0.126472786771]
+iteration#151
+Input:2.43, output:5.9049, action:0.01
+Q info:[func approx weight:0.137228603168]
+iteration#152
+Input:2.44, output:5.9536, action:0.01
+Q info:[func approx weight:0.147721745073]
+iteration#153
+Input:2.45, output:6.0025, action:0.01
+Q info:[func approx weight:0.15796009272]
+iteration#154
+Input:2.46, output:6.0516, action:0.01
+Q info:[func approx weight:0.167951289939]
+iteration#155
+Input:2.47, output:6.1009, action:0.01
+Q info:[func approx weight:0.177702751241]
+iteration#156
+Input:2.48, output:6.1504, action:0.01
+Q info:[func approx weight:0.187221668703]
+iteration#157
+Input:2.49, output:6.2001, action:0.01
+Q info:[func approx weight:0.196515018642]
+iteration#158
+Input:2.5, output:6.25, action:0.01
+Q info:[func approx weight:0.205589568083]
+iteration#159
+Input:2.51, output:6.3001, action:0.01
+Q info:[func approx weight:0.21445188104]
+iteration#160
+Input:2.52, output:6.3504, action:0.01
+Q info:[func approx weight:0.223108324609]
+iteration#161
+Input:2.53, output:6.4009, action:0.01
+Q info:[func approx weight:0.231565074871]
+iteration#162
+Input:2.52, output:6.3504, action:-0.01
+Q info:[func approx weight:0.114722982195]
+iteration#163
+Input:2.51, output:6.3001, action:-0.01
+Q info:[func approx weight:0.0644208823436]
+iteration#164
+Input:2.52, output:6.3504, action:0.01
+Q info:[func approx weight:0.0775782558733]
+iteration#165
+Input:2.53, output:6.4009, action:0.01
+Q info:[func approx weight:0.0904009081971]
+iteration#166
+Input:2.54, output:6.4516, action:0.01
+Q info:[func approx weight:0.102898880951]
+iteration#167
+Input:2.55, output:6.5025, action:0.01
+Q info:[func approx weight:0.115081914523]
+iteration#168
+Input:2.56, output:6.5536, action:0.01
+Q info:[func approx weight:0.126959457087]
+iteration#169
+Input:2.57, output:6.6049, action:0.01
+Q info:[func approx weight:0.138540673374]
+iteration#170
+Input:2.58, output:6.6564, action:0.01
+Q info:[func approx weight:0.149834453173]
+iteration#171
+Input:2.59, output:6.7081, action:0.01
+Q info:[func approx weight:0.160849419578]
+iteration#172
+Input:2.6, output:6.76, action:0.01
+Q info:[func approx weight:0.171593936991]
+iteration#173
+Input:2.61, output:6.8121, action:0.01
+Q info:[func approx weight:0.182076118881]
+iteration#174
+Input:2.62, output:6.8644, action:0.01
+Q info:[func approx weight:0.192303835314]
+iteration#175
+Input:2.63, output:6.9169, action:0.01
+Q info:[func approx weight:0.202284720255]
+iteration#176
+Input:2.64, output:6.9696, action:0.01
+Q info:[func approx weight:0.212026178647]
+iteration#177
+Input:2.65, output:7.0225, action:0.01
+Q info:[func approx weight:0.221535393288]
+iteration#178
+Input:2.64, output:6.9696, action:-0.01
+Q info:[func approx weight:0.111130219114]
+iteration#179
+Input:2.65, output:7.0225, action:0.01
+Q info:[func approx weight:0.12366631254]
+iteration#180
+Input:2.66, output:7.0756, action:0.01
+Q info:[func approx weight:0.135886323164]
+iteration#181
+Input:2.65, output:7.0225, action:-0.01
+Q info:[func approx weight:0.0743611189606]
+iteration#182
+Input:2.66, output:7.0756, action:0.01
+Q info:[func approx weight:0.0880602853918]
+iteration#183
+Input:2.67, output:7.1289, action:0.01
+Q info:[func approx weight:0.10140847683]
+iteration#184
+Input:2.68, output:7.1824, action:0.01
+Q info:[func approx weight:0.114416222525]
+iteration#185
+Input:2.69, output:7.2361, action:0.01
+Q info:[func approx weight:0.127093735849]
+iteration#186
+Input:2.7, output:7.29, action:0.01
+Q info:[func approx weight:0.139450923774]
+iteration#187
+Input:2.71, output:7.3441, action:0.01
+Q info:[func approx weight:0.151497396061]
+iteration#188
+Input:2.72, output:7.3984, action:0.01
+Q info:[func approx weight:0.163242474179]
+iteration#189
+Input:2.73, output:7.4529, action:0.01
+Q info:[func approx weight:0.174695199953]
+iteration#190
+Input:2.74, output:7.5076, action:0.01
+Q info:[func approx weight:0.185864343955]
+iteration#191
+Input:2.75, output:7.5625, action:0.01
+Q info:[func approx weight:0.196758413636]
+iteration#192
+Input:2.76, output:7.6176, action:0.01
+Q info:[func approx weight:0.207385661227]
+iteration#193
+Input:2.77, output:7.6729, action:0.01
+Q info:[func approx weight:0.21775409139]
+iteration#194
+Input:2.78, output:7.7284, action:0.01
+Q info:[func approx weight:0.227871468649]
+iteration#195
+Input:2.79, output:7.7841, action:0.01
+Q info:[func approx weight:0.237745324589]
+iteration#196
+Input:2.8, output:7.84, action:0.01
+Q info:[func approx weight:0.247382964851]
+iteration#197
+Input:2.81, output:7.8961, action:0.01
+Q info:[func approx weight:0.256791475906]
+iteration#198
+Input:2.82, output:7.9524, action:0.01
+Q info:[func approx weight:0.265977731629]
+iteration#199
+Input:2.83, output:8.0089, action:0.01
+Q info:[func approx weight:0.27494839968]
+iteration#200
+Input:2.84, output:8.0656, action:0.01
+Q info:[func approx weight:0.28370994769]
+iteration#201
+Input:2.85, output:8.1225, action:0.01
+Q info:[func approx weight:0.292268649259]
+iteration#202
+Input:2.86, output:8.1796, action:0.01
+Q info:[func approx weight:0.300630589781]
+iteration#203
+Input:2.87, output:8.2369, action:0.01
+Q info:[func approx weight:0.308801672088]
+iteration#204
+Input:2.88, output:8.2944, action:0.01
+Q info:[func approx weight:0.316787621925]
+iteration#205
+Input:2.89, output:8.3521, action:0.01
+Q info:[func approx weight:0.324593993267]
+iteration#206
+Input:2.9, output:8.41, action:0.01
+Q info:[func approx weight:0.332226173469]
+iteration#207
+Input:2.91, output:8.4681, action:0.01
+Q info:[func approx weight:0.339689388265]
+iteration#208
+Input:2.92, output:8.5264, action:0.01
+Q info:[func approx weight:0.346988706617]
+iteration#209
+Input:2.93, output:8.5849, action:0.01
+Q info:[func approx weight:0.354129045419]
+iteration#210
+Input:2.94, output:8.6436, action:0.01
+Q info:[func approx weight:0.361115174056]
+iteration#211
+Input:2.95, output:8.7025, action:0.01
+Q info:[func approx weight:0.367951718834]
+iteration#212
+Input:2.96, output:8.7616, action:0.01
+Q info:[func approx weight:0.374643167269]
+iteration#213
+Input:2.97, output:8.8209, action:0.01
+Q info:[func approx weight:0.381193872251]
+iteration#214
+Input:2.98, output:8.8804, action:0.01
+Q info:[func approx weight:0.387608056084]
+iteration#215
+Input:2.99, output:8.9401, action:0.01
+Q info:[func approx weight:0.393889814401]
+iteration#216
+Input:3.0, output:9.0, action:0.01
+Q info:[func approx weight:0.400043119969]
+iteration#217
+Input:2.99, output:8.9401, action:-0.01
+Q info:[func approx weight:0.189988541587]
+iteration#218
+Input:3.0, output:9.0, action:0.01
+Q info:[func approx weight:0.202258885339]
+iteration#219
+Input:3.01, output:9.0601, action:0.01
+Q info:[func approx weight:0.214221118779]
+iteration#220
+Input:3.02, output:9.1204, action:0.01
+Q info:[func approx weight:0.225884485216]
+iteration#221
+Input:3.03, output:9.1809, action:0.01
+Q info:[func approx weight:0.237257950659]
+iteration#222
+Input:3.04, output:9.2416, action:0.01
+Q info:[func approx weight:0.248350212139]
+iteration#223
+Input:3.05, output:9.3025, action:0.01
+Q info:[func approx weight:0.259169705775]
+iteration#224
+Input:3.06, output:9.3636, action:0.01
+Q info:[func approx weight:0.269724614602]
+iteration#225
+Input:3.07, output:9.4249, action:0.01
+Q info:[func approx weight:0.280022876164]
+iteration#226
+Input:3.08, output:9.4864, action:0.01
+Q info:[func approx weight:0.290072189879]
+iteration#227
+Input:3.09, output:9.5481, action:0.01
+Q info:[func approx weight:0.299880024183]
+iteration#228
+Input:3.1, output:9.61, action:0.01
+Q info:[func approx weight:0.309453623457]
+iteration#229
+Input:3.09, output:9.5481, action:-0.01
+Q info:[func approx weight:0.151635058087]
+iteration#230
+Input:3.1, output:9.61, action:0.01
+Q info:[func approx weight:0.165656006344]
+iteration#231
+Input:3.11, output:9.6721, action:0.01
+Q info:[func approx weight:0.179316326154]
+iteration#232
+Input:3.12, output:9.7344, action:0.01
+Q info:[func approx weight:0.192626836369]
+iteration#233
+Input:3.13, output:9.7969, action:0.01
+Q info:[func approx weight:0.205598031278]
+iteration#234
+Input:3.14, output:9.8596, action:0.01
+Q info:[func approx weight:0.21824009034]
+iteration#235
+Input:3.15, output:9.9225, action:0.01
+Q info:[func approx weight:0.230562887629]
+iteration#236
+Problem is solved, last output 9.9225
+QLearning with: [Q values:{False: 0, True: 0}]
+iteration#1
+Input:0.99, output:0.9801, action:-0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0}]
+iteration#2
+Input:1.0, output:1.0, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.0059699999999999415}]
+iteration#3
+Input:1.01, output:1.0201, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.011820899999999745}]
+iteration#4
+Input:1.02, output:1.0404, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.01755627299999995}]
+iteration#5
+Input:1.03, output:1.0609, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.023179584810000008}]
+iteration#6
+Input:1.04, output:1.0816, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.028694197265699925}]
+iteration#7
+Input:1.05, output:1.1025, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.0341033713477287}]
+iteration#8
+Input:1.06, output:1.1236, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.039410270207297}]
+iteration#9
+Input:1.07, output:1.1449, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.044617962101078115}]
+iteration#10
+Input:1.08, output:1.1664, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.04972942323804566}]
+iteration#11
+Input:1.09, output:1.1881, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.05474754054090457}]
+iteration#12
+Input:1.1, output:1.21, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.05967511432467758}]
+iteration#13
+Input:1.11, output:1.2321, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.06451486089493726}]
+iteration#14
+Input:1.12, output:1.2544, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.069269415068089}]
+iteration#15
+Input:1.13, output:1.2769, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.07394133261604657}]
+iteration#16
+Input:1.14, output:1.2996, action:0.01
+Q info:[Q values:{False: -0.0059699999999999415, True: 0.07853309263756475}]
+iteration#17
+Input:1.13, output:1.2769, action:-0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.07853309263756475}]
+iteration#18
+Input:1.14, output:1.2996, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.08298709985843739}]
+iteration#19
+Input:1.15, output:1.3225, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.08736748686268424}]
+iteration#20
+Input:1.16, output:1.3456, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.09167646225680408}]
+iteration#21
+Input:1.17, output:1.3689, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.09591616838909964}]
+iteration#22
+Input:1.18, output:1.3924, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.10008868333742674}]
+iteration#23
+Input:1.19, output:1.4161, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.10419602283730386}]
+iteration#24
+Input:1.2, output:1.44, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.10824014215218508}]
+iteration#25
+Input:1.21, output:1.4641, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.1122229378876192}]
+iteration#26
+Input:1.22, output:1.4884, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.11614624975099068}]
+iteration#27
+Input:1.23, output:1.5129, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.12001186225846087}]
+iteration#28
+Input:1.24, output:1.5376, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.12382150639070735}]
+iteration#29
+Input:1.25, output:1.5625, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.12757686119898576}]
+iteration#30
+Input:1.26, output:1.5876, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.13127955536301622}]
+iteration#31
+Input:1.27, output:1.6129, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.13493116870212563}]
+iteration#32
+Input:1.28, output:1.6384, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.13853323364106215}]
+iteration#33
+Input:1.29, output:1.6641, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.14208723663183043}]
+iteration#34
+Input:1.3, output:1.69, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.14559461953287553}]
+iteration#35
+Input:1.31, output:1.7161, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.14905678094688912}]
+iteration#36
+Input:1.32, output:1.7424, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.15247507751848216}]
+iteration#37
+Input:1.33, output:1.7689, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.1558508251929278}]
+iteration#38
+Input:1.34, output:1.7956, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.15918530043713996}]
+iteration#39
+Input:1.35, output:1.8225, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.16247974142402613}]
+iteration#40
+Input:1.36, output:1.8496, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.16573534918130503}]
+iteration#41
+Input:1.37, output:1.8769, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.16895328870586596}]
+iteration#42
+Input:1.38, output:1.9044, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.17213469004468993}]
+iteration#43
+Input:1.39, output:1.9321, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.17528064934334958}]
+iteration#44
+Input:1.4, output:1.96, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.17839222986304876}]
+iteration#45
+Input:1.41, output:1.9881, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.18147046296715735}]
+iteration#46
+Input:1.42, output:2.0164, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.18451634907814257}]
+iteration#47
+Input:1.43, output:2.0449, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.18753085860579832}]
+iteration#48
+Input:1.44, output:2.0736, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.19051493284762427}]
+iteration#49
+Input:1.45, output:2.1025, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.1934694848621956}]
+iteration#50
+Input:1.46, output:2.1316, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.19639540031632963}]
+iteration#51
+Input:1.47, output:2.1609, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.19929353830684002}]
+iteration#52
+Input:1.48, output:2.1904, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2021647321576347}]
+iteration#53
+Input:1.49, output:2.2201, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.20500979019290566}]
+iteration#54
+Input:1.5, output:2.25, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.20782949648711863}]
+iteration#55
+Input:1.51, output:2.2801, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.21062461159250478}]
+iteration#56
+Input:1.52, output:2.3104, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.21339587324472975}]
+iteration#57
+Input:1.53, output:2.3409, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.21614399704738785}]
+iteration#58
+Input:1.54, output:2.3716, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.21886967713596606}]
+iteration#59
+Input:1.55, output:2.4025, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.22157358682188733}]
+iteration#60
+Input:1.56, output:2.4336, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2242563792172308}]
+iteration#61
+Input:1.57, output:2.4649, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2269186878407138}]
+iteration#62
+Input:1.58, output:2.4964, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2295611272054922}]
+iteration#63
+Input:1.59, output:2.5281, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.23218429338932767}]
+iteration#64
+Input:1.6, output:2.56, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2347887645876479}]
+iteration#65
+Input:1.61, output:2.5921, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2373751016500184}]
+iteration#66
+Input:1.62, output:2.6244, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.23994384860051765}]
+iteration#67
+Input:1.63, output:2.6569, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2424955331425023}]
+iteration#68
+Input:1.64, output:2.6896, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2450306671482273}]
+iteration#69
+Input:1.65, output:2.7225, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.24754974713378036}]
+iteration#70
+Input:1.66, output:2.7556, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.250053254719767}]
+iteration#71
+Input:1.67, output:2.7889, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2525416570781739}]
+iteration#72
+Input:1.68, output:2.8224, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2550154073658287}]
+iteration#73
+Input:1.69, output:2.8561, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2574749451448537}]
+iteration#74
+Input:1.7, output:2.89, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.2599206967905084}]
+iteration#75
+Input:1.71, output:2.9241, action:0.01
+Q info:[Q values:{False: 0.010214935012142939, True: 0.26235307588679324}]
+iteration#76
+Input:1.7, output:2.89, action:-0.01
+Q info:[Q values:{False: 0.0677557849979341, True: 0.26235307588679324}]
+iteration#77
+Input:1.71, output:2.9241, action:0.01
+Q info:[Q values:{False: 0.0677557849979341, True: 0.26471248361018956}]
+iteration#78
+Input:1.72, output:2.9584, action:0.01
+Q info:[Q values:{False: 0.0677557849979341, True: 0.26706110910188385}]
+iteration#79
+Input:1.73, output:2.9929, action:0.01
+Q info:[Q values:{False: 0.0677557849979341, True: 0.26939927582882717}]
+iteration#80
+Input:1.74, output:3.0276, action:0.01
+Q info:[Q values:{False: 0.0677557849979341, True: 0.27172729755396235}]
+iteration#81
+Input:1.75, output:3.0625, action:0.01
+Q info:[Q values:{False: 0.0677557849979341, True: 0.2740454786273433}]
+iteration#82
+Input:1.76, output:3.0976, action:0.01
+Q info:[Q values:{False: 0.0677557849979341, True: 0.27635411426852324}]
+iteration#83
+Input:1.75, output:3.0625, action:-0.01
+Q info:[Q values:{False: 0.1115146603510549, True: 0.27635411426852324}]
+iteration#84
+Input:1.76, output:3.0976, action:0.01
+Q info:[Q values:{False: 0.1115146603510549, True: 0.27859349084046775}]
+iteration#85
+Input:1.77, output:3.1329, action:0.01
+Q info:[Q values:{False: 0.1115146603510549, True: 0.2808256861152538}]
+iteration#86
+Input:1.78, output:3.1684, action:0.01
+Q info:[Q values:{False: 0.1115146603510549, True: 0.2830509155317959}]
+iteration#87
+Input:1.79, output:3.2041, action:0.01
+Q info:[Q values:{False: 0.1115146603510549, True: 0.2852693880658421}]
+iteration#88
+Input:1.8, output:3.24, action:0.01
+Q info:[Q values:{False: 0.1115146603510549, True: 0.2874813064238668}]
+iteration#89
+Input:1.81, output:3.2761, action:0.01
+Q info:[Q values:{False: 0.1115146603510549, True: 0.28968686723115117}]
+iteration#90
+Input:1.82, output:3.3124, action:0.01
+Q info:[Q values:{False: 0.1115146603510549, True: 0.2918862612142163}]
+iteration#91
+Input:1.81, output:3.2761, action:-0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.2918862612142163}]
+iteration#92
+Input:1.82, output:3.3124, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.29401967337778945}]
+iteration#93
+Input:1.83, output:3.3489, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.29614908317645583}]
+iteration#94
+Input:1.84, output:3.3856, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.29827461068116234}]
+iteration#95
+Input:1.85, output:3.4225, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3003963723607275}]
+iteration#96
+Input:1.86, output:3.4596, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3025144811899056}]
+iteration#97
+Input:1.87, output:3.4969, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.30462904675420843}]
+iteration#98
+Input:1.88, output:3.5344, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3067401753515823}]
+iteration#99
+Input:1.89, output:3.5721, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3088479700910346}]
+iteration#100
+Input:1.9, output:3.61, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3109525309883037}]
+iteration#101
+Input:1.91, output:3.6481, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3130539550586546}]
+iteration#102
+Input:1.92, output:3.6864, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3151523364068948}]
+iteration#103
+Input:1.93, output:3.7249, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.31724776631468815}]
+iteration#104
+Input:1.94, output:3.7636, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3193403333252476}]
+iteration#105
+Input:1.95, output:3.8025, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3214301233254901}]
+iteration#106
+Input:1.96, output:3.8416, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3235172196257252}]
+iteration#107
+Input:1.97, output:3.8809, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3256017030369537}]
+iteration#108
+Input:1.98, output:3.9204, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.32768365194584487}]
+iteration#109
+Input:1.99, output:3.9601, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.32976314238746945}]
+iteration#110
+Input:2.0, output:4.0, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.33184024811584545}]
+iteration#111
+Input:2.01, output:4.0401, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.33391504067236977}]
+iteration#112
+Input:2.02, output:4.0804, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3359875894521985}]
+iteration#113
+Input:2.03, output:4.1209, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3380579617686322}]
+iteration#114
+Input:2.04, output:4.1616, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.340126222915573}]
+iteration#115
+Input:2.05, output:4.2025, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3421924362281057}]
+iteration#116
+Input:2.06, output:4.2436, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.344256663141262}]
+iteration#117
+Input:2.07, output:4.2849, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.34631896324702405}]
+iteration#118
+Input:2.08, output:4.3264, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.34837939434961307}]
+iteration#119
+Input:2.09, output:4.3681, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3504380125191243}]
+iteration#120
+Input:2.1, output:4.41, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3524948721435503}]
+iteration#121
+Input:2.11, output:4.4521, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.35455002597924334}]
+iteration#122
+Input:2.12, output:4.4944, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.35660352519986577}]
+iteration#123
+Input:2.13, output:4.5369, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.35865541944386964}]
+iteration#124
+Input:2.14, output:4.5796, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.36070575686055323}]
+iteration#125
+Input:2.15, output:4.6225, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.36275458415473616}]
+iteration#126
+Input:2.16, output:4.6656, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3648019466300938}]
+iteration#127
+Input:2.17, output:4.7089, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3668478882311908}]
+iteration#128
+Input:2.18, output:4.7524, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.36889245158425477}]
+iteration#129
+Input:2.19, output:4.7961, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.37093567803672667}]
+iteration#130
+Input:2.2, output:4.84, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3729776076956245}]
+iteration#131
+Input:2.21, output:4.8841, action:0.01
+Q info:[Q values:{False: 0.14597955277357716, True: 0.3750182794647556}]
+iteration#132
+Input:2.2, output:4.84, action:-0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.3750182794647556}]
+iteration#133
+Input:2.21, output:4.8841, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.3769977310808127}]
+iteration#134
+Input:2.22, output:4.9284, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.378977799148388}]
+iteration#135
+Input:2.23, output:4.9729, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.3809584651739361}]
+iteration#136
+Input:2.24, output:5.0176, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.38293971121871767}]
+iteration#137
+Input:2.25, output:5.0625, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.3849215198821559}]
+iteration#138
+Input:2.26, output:5.1076, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.38690387428569084}]
+iteration#139
+Input:2.27, output:5.1529, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.3888867580571196}]
+iteration#140
+Input:2.28, output:5.1984, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.3908701553154059}]
+iteration#141
+Input:2.29, output:5.2441, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.39285405065594325}]
+iteration#142
+Input:2.3, output:5.29, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.39483842913626455}]
+iteration#143
+Input:2.31, output:5.3361, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.39682327626217634}]
+iteration#144
+Input:2.32, output:5.3824, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.39880857797431063}]
+iteration#145
+Input:2.33, output:5.4289, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.400794320635081}]
+iteration#146
+Input:2.34, output:5.4756, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.40278049101602814}]
+iteration#147
+Input:2.35, output:5.5225, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.404767076285547}]
+iteration#148
+Input:2.36, output:5.5696, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.4067540639969804}]
+iteration#149
+Input:2.37, output:5.6169, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.4087414420770704}]
+iteration#150
+Input:2.38, output:5.6644, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.4107291988147581}]
+iteration#151
+Input:2.39, output:5.7121, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.41271732285031504}]
+iteration#152
+Input:2.4, output:5.76, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.4147058031648051}]
+iteration#153
+Input:2.41, output:5.8081, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.41669462906986054}]
+iteration#154
+Input:2.42, output:5.8564, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.41868379019776425}]
+iteration#155
+Input:2.43, output:5.9049, action:0.01
+Q info:[Q values:{False: 0.19021062239698822, True: 0.42067327649183095}]
+iteration#156
+Input:2.42, output:5.8564, action:-0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.42067327649183095}]
+iteration#157
+Input:2.43, output:5.9049, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.42260307819707565}]
+iteration#158
+Input:2.44, output:5.9536, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4245349858511631}]
+iteration#159
+Input:2.45, output:6.0025, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4264689362756278}]
+iteration#160
+Input:2.46, output:6.0516, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.42840486818735846}]
+iteration#161
+Input:2.47, output:6.1009, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4303427221417373}]
+iteration#162
+Input:2.48, output:6.1504, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.43228244047748465}]
+iteration#163
+Input:2.49, output:6.2001, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4342239672631597}]
+iteration#164
+Input:2.5, output:6.25, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.43616724824526465}]
+iteration#165
+Input:2.51, output:6.3001, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4381122307979063}]
+iteration#166
+Input:2.52, output:6.3504, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.44005886387396886}]
+iteration#167
+Input:2.53, output:6.4009, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4420070979577494}]
+iteration#168
+Input:2.54, output:6.4516, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4439568850190163}]
+iteration#169
+Input:2.55, output:6.5025, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4459081784684454}]
+iteration#170
+Input:2.56, output:6.5536, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4478609331143917}]
+iteration#171
+Input:2.57, output:6.6049, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.44981510512095946}]
+iteration#172
+Input:2.58, output:6.6564, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.45177065196733035}]
+iteration#173
+Input:2.59, output:6.7081, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.45372753240831}]
+iteration#174
+Input:2.6, output:6.76, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4556857064360603}]
+iteration#175
+Input:2.61, output:6.8121, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.45764513524297806}]
+iteration#176
+Input:2.62, output:6.8644, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.45960578118568807}]
+iteration#177
+Input:2.63, output:6.9169, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4615676077501172}]
+iteration#178
+Input:2.64, output:6.9696, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.46353057951761306}]
+iteration#179
+Input:2.65, output:7.0225, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.46549466213208446}]
+iteration#180
+Input:2.66, output:7.0756, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4674598222681213}]
+iteration#181
+Input:2.67, output:7.1289, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4694260276000774}]
+iteration#182
+Input:2.68, output:7.1824, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4713932467720747}]
+iteration#183
+Input:2.69, output:7.2361, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.473361449368912}]
+iteration#184
+Input:2.7, output:7.29, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.47533060588784426}]
+iteration#185
+Input:2.71, output:7.3441, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.47730068771120837}]
+iteration#186
+Input:2.72, output:7.3984, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4792716670798717}]
+iteration#187
+Input:2.73, output:7.4529, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.481243517067475}]
+iteration#188
+Input:2.74, output:7.5076, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4832162115554503}]
+iteration#189
+Input:2.75, output:7.5625, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4851897252087862}]
+iteration#190
+Input:2.76, output:7.6176, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4871640334525222}]
+iteration#191
+Input:2.77, output:7.6729, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.48913911244894626}]
+iteration#192
+Input:2.78, output:7.7284, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.49111493907547743}]
+iteration#193
+Input:2.79, output:7.7841, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4930914909032125}]
+iteration#194
+Input:2.8, output:7.84, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4950687461761156}]
+iteration#195
+Input:2.81, output:7.8961, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.49704668379083183}]
+iteration#196
+Input:2.82, output:7.9524, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.4990252832771064}]
+iteration#197
+Input:2.83, output:8.0089, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.5010045247787925}]
+iteration#198
+Input:2.84, output:8.0656, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.5029843890354285}]
+iteration#199
+Input:2.85, output:8.1225, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.5049648573643648}]
+iteration#200
+Input:2.86, output:8.1796, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.5069459116434334}]
+iteration#201
+Input:2.87, output:8.2369, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.5089275342941303}]
+iteration#202
+Input:2.88, output:8.2944, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.5109097082653056}]
+iteration#203
+Input:2.89, output:8.3521, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.512892417017346}]
+iteration#204
+Input:2.9, output:8.41, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.5148756445068251}]
+iteration#205
+Input:2.91, output:8.4681, action:0.01
+Q info:[Q values:{False: 0.23217922033068644, True: 0.5168593751716202}]
+iteration#206
+Input:2.9, output:8.41, action:-0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.5168593751716202}]
+iteration#207
+Input:2.91, output:8.4681, action:0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.5187835939164714}]
+iteration#208
+Input:2.92, output:8.5264, action:0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.5207100860989765}]
+iteration#209
+Input:2.93, output:8.5849, action:0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.5226387835160068}]
+iteration#210
+Input:2.94, output:8.6436, action:0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.5245696200105261}]
+iteration#211
+Input:2.95, output:8.7025, action:0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.5265025314102096}]
+iteration#212
+Input:2.96, output:8.7616, action:0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.528437455467903}]
+iteration#213
+Input:2.97, output:8.8209, action:0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.5303743318038654}]
+iteration#214
+Input:2.98, output:8.8804, action:0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.5323131018497489}]
+iteration#215
+Input:2.99, output:8.9401, action:0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.5342537087942557}]
+iteration#216
+Input:3.0, output:9.0, action:0.01
+Q info:[Q values:{False: 0.28464748552781804, True: 0.5361960975304277}]
+iteration#217
+Input:2.99, output:8.9401, action:-0.01
+Q info:[Q values:{False: 0.32605618620268845, True: 0.5361960975304277}]
+iteration#218
+Input:3.0, output:9.0, action:0.01
+Q info:[Q values:{False: 0.32605618620268845, True: 0.5380802146045146}]
+iteration#219
+Input:3.01, output:9.0601, action:0.01
+Q info:[Q values:{False: 0.32605618620268845, True: 0.5399678081663787}]
+iteration#220
+Input:3.02, output:9.1204, action:0.01
+Q info:[Q values:{False: 0.32605618620268845, True: 0.5418587739213867}]
+iteration#221
+Input:3.03, output:9.1809, action:0.01
+Q info:[Q values:{False: 0.32605618620268845, True: 0.5437530107037443}]
+iteration#222
+Input:3.04, output:9.2416, action:0.01
+Q info:[Q values:{False: 0.32605618620268845, True: 0.5456504203826316}]
+iteration#223
+Input:3.05, output:9.3025, action:0.01
+Q info:[Q values:{False: 0.32605618620268845, True: 0.5475509077711521}]
+iteration#224
+Input:3.06, output:9.3636, action:0.01
+Q info:[Q values:{False: 0.32605618620268845, True: 0.549454380538017}]
+iteration#225
+Input:3.07, output:9.4249, action:0.01
+Q info:[Q values:{False: 0.32605618620268845, True: 0.5513607491218763}]
+iteration#226
+Input:3.08, output:9.4864, action:0.01
+Q info:[Q values:{False: 0.32605618620268845, True: 0.5532699266482191}]
+iteration#227
+Input:3.07, output:9.4249, action:-0.01
+Q info:[Q values:{False: 0.35917221053690196, True: 0.5532699266482191}]
+iteration#228
+Input:3.08, output:9.4864, action:0.01
+Q info:[Q values:{False: 0.35917221053690196, True: 0.5551218288487716}]
+iteration#229
+Input:3.09, output:9.5481, action:0.01
+Q info:[Q values:{False: 0.35917221053690196, True: 0.556978173983308}]
+iteration#230
+Input:3.1, output:9.61, action:0.01
+Q info:[Q values:{False: 0.35917221053690196, True: 0.5588388287638086}]
+iteration#231
+Input:3.11, output:9.6721, action:0.01
+Q info:[Q values:{False: 0.35917221053690196, True: 0.5607036639008935}]
+iteration#232
+Input:3.12, output:9.7344, action:0.01
+Q info:[Q values:{False: 0.35917221053690196, True: 0.5625725539838663}]
+iteration#233
+Input:3.13, output:9.7969, action:0.01
+Q info:[Q values:{False: 0.35917221053690196, True: 0.5644453773643497}]
+iteration#234
+Input:3.14, output:9.8596, action:0.01
+Q info:[Q values:{False: 0.35917221053690196, True: 0.5663220160434186}]
+iteration#235
+Input:3.15, output:9.9225, action:0.01
+Q info:[Q values:{False: 0.35917221053690196, True: 0.5682023555621157}]
+iteration#236
+Problem is solved, last output 9.9225
